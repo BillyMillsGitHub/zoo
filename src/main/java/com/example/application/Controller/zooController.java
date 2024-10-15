@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class zooController {
 
-    @GetMapping("/zoo")
-    public String index() {
+    @GetMapping("/welcome")
+    public String sayHello() {
         return "Hello from the zoo!";
     }
 }
